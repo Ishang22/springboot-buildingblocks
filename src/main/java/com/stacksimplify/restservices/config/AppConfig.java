@@ -9,7 +9,7 @@ public class AppConfig {
 	
 	@Bean
 	public ModelMapper modelMapper() {
-		System.out.println("=========RRRRR=lllll==apne vala=======");
+		System.out.println("=========RRRRR=lllll==apne vvala=======");
 		return new ModelMapper();
 
 
