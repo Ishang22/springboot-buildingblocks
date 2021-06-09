@@ -35,7 +35,7 @@ public class UserHateoasController {
 	// getUserById
 	@GetMapping("/{id}")
 	public Resource<User> getUserById(@PathVariable("id") @Min(1) Long id) {
-
+		System.out.println("ishannnnnnn");
 		try {
 			Optional<User> userOptional =  userService.getUserById(id);
 			User user = userOptional.get();
